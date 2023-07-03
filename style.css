@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label {
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.input {
+  padding-left: 30px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.input[type="text"] {
+  background-image: url("text-icon.png");
+}
+
+.input[type="email"] {
+  background-image: url("email-icon.png");
+}
+
+.input[type="password"] {
+  background-image: url("password-icon.png");
+}
+#sub_btn {
+  margin-left: 10px;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+#head {
+  align-self: center;
+  text-align: center    ;
+margin-bottom: 30px;
+margin-top: 0%;
+}
